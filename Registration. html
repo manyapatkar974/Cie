@@ -1,0 +1,97 @@
+<!DOCTYPE>
+<html>
+<head>
+<style>
+*{
+margin: 5px;
+padding: 5px;
+box-sizing:border-box;
+}
+body{
+font-family:Arial,sans-serif;
+background-color:lemonchiffon;
+display:flex;
+justify content:center;
+align-items:center;
+height:100vh;
+}
+form{
+display:flex;
+flex-direction:column;
+}
+label{
+color:lightcoral;
+font-size:14px;
+font-weight:bold;
+margin-bottom:5px;
+display:block;
+}
+input,select,button{
+width:100%;
+padding:10px;
+border-radius:4px;
+border:ipx solid #ccc;
+font-size:14px;
+}
+button{
+background-color:purple;
+}
+button:hover{
+background-color:pink;
+}
+</style>
+<body>
+<h2>HTML forms</h2>
+<form action="/action_page.php">
+<label for="fname">First Name:</label><br>
+<input type="text" id="fname" name="fname"><br>
+<label for="lname">Last Name:</label><br>
+<input type="text" id="lname" name="lname"><br><br>
+<p>Choose ur fav web language</p>
+<input type="radio" id="html" name="fav lang" value="HTML">
+<label for="html">HTML</label><br>
+<input type="radio" id="css" name="fav lang" value="CSS">
+<label for="html">CSS</label><br>
+<input type="radio" id="javascript" name="fav lang" value="Javascript">
+<label for="html">Javascript</label><br><br>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Scooty">
+<label for="vehicle1">I hve a Scooty</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2">I hve a Car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle1">I hve a boat</label><br>
+<br>
+<label for="cars">Choose a Car</label>
+<select id="Cars> name="cars" size="3" multiple>
+<option value="volvo">Volvo</option>
+<option value="audi">Audi</option>
+<option value="fiat">Fiat</option>
+<option value="saab">Saab</option>
+</select>
+<br><br>
+<p>The <strong>input type="password"</strong> defines a password field:</p>
+<label for="username">Username:</label><br>
+<input type="text" id="username" name="username"><br>
+<label for="pwd">Password:</label><br>
+<input type="text" id="password" name="pwd"><br>
+<p>The <strong>input type="color"</strong> is used for input fields tht should contain a color</p>
+<label for="favcolor">Select ur fav color:</label>
+<input type="color" id="favcolor" name="favcolor"><br>
+<br>
+<label for="birthday">Birthday:</label><br>
+<input type="date" id="birthday" name="birthday"><br>
+<br>
+<p>The <strong>input type="email"</strong> used for input fieldsthat should contain email address:</p>
+
+<label for="email">Enter ur email:</label>
+<input type="email" id="Email" name="Email"><br>
+<br>
+<label for="quantity">Quantity btw[1 to 25]:</label><br>
+<input type="number" id="quantity" name="quantity" min="1" max="25"><br>
+<br>
+
+<input type="submit" value="Submit">
+</form>
+<p>If u click the "submit" button,the form data will be sent to a pg called"/action_page.php."</p>
+</body>
+</html>
