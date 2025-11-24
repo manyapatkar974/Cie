@@ -1,0 +1,99 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>newspaper layout</title>
+</head>
+<style>
+Header{
+padding:5px;
+color:white;
+background-color:lightgreen;
+text-align:center;
+}
+nav{
+padding:5px;
+color:white;
+text-align:center;
+background-color:black;
+}
+a{
+color:white;
+}
+.sec1{
+background-color:grey;
+}
+.sec2{
+background-color:grey;
+}
+hr{
+text-align:center;
+}
+table,th,td{
+border:1px solid black;
+border-collapse:collapse;
+}
+th,td{
+padding:10px;
+text-align:center;
+}
+footer{
+background-color:green;
+text-align:center;
+padding:10px;
+}
+</style>
+<body>
+<header>
+<h1>Daily News</h1>
+<h3>Your source for the latest updates</h3>
+</header>
+<nav>
+<a href="#">Home</a>
+<a href="#">World</a>
+<a href="#">Sports</a>
+<a href="#">Entertainment</a>
+</nav>
+<section>
+<article>
+<div class="sec1">
+<h2>Breaking News:Tech advances</h2>
+<p>The world of technology is evolvig at a rapid space</p>
+</div>
+<div class="sec2">
+<h2>Health: Tips for a better life</h2>
+<p>Health is wealth.Here are some tips to maintain a healthy lifestyle</p>
+</div>
+<figure>
+<img src="https://tse2.mm.bing.net/th/id/OIP.VUjHBCLlu496bt7gw8KX-gHaEK?rs=1&pid=ImgDetMain&o=7&rm=3">
+<caption align="center">Img:IPL cup</caption>
+</figure>
+</article>
+</section>
+<h2>Latest Sports Score</h2>
+<table style="width:100%">
+<tr>
+<th>Team</th>
+<th>Score</th>
+<th>Opponent</th>
+</tr>
+<tr>
+<td>RCB</td>
+<td>89</td>
+<td>KKR</td>
+</tr>
+<tr>
+<td>CSK</td>
+<td>78</td>
+<td>RCB</td>
+</tr>
+<tr>
+<td>KKR</td>
+<td>88</td>
+<td>CSK</td>
+</tr>
+</table>
+<br>
+<footer>Copyright</footer>
+</br>
+</body>
+</html>
